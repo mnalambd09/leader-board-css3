@@ -33,6 +33,11 @@ main{
     width: 57px;
     height: 57px;
 }
+.player-title{
+    color: blueviolet;
+    margin-left: 20px;
+    padding-top: 30px;
+}
 .top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,4 +56,49 @@ main{
 }
 .player-name{
     margin-left: 20px;
+}
+hr{
+    width: 90%;
+    margin:30px;
+    mar
+}
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:center;
+    align-items:center;
+}
+.top-blog{
+
+}
+.blog-img{
+    width:177px;
+    height:177px;
+}
+.blog-img img{
+    width: 100%;
+}
+.latest-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-card{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 252px;
+    height: 270px;
+    
+}
+.course-img{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+}
+.course-img img{
+    width: 90%;
+    
+}
+.rating{
+    color: gold;
 }
