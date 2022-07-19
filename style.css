@@ -7,6 +7,7 @@ body{
 main{
     width: 800px;
     margin: 0px auto;
+    margin-bottom: 30px;
 }
 
 .navbar{
@@ -97,16 +98,20 @@ span{
 .latest-courses{
     background-color: white;
     border-radius: 5px;
+    height: 400px;
+    
 }
 .latest-course{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+   
 }
 .course-card{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
-    width: 252px;
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 235px;
     height: 270px;
+    margin-left: 15px;
     
 }
 .course-img{
@@ -129,6 +134,17 @@ span{
 .rating{
     color: gold;
     font-size: 15px;
+    display: flex;
+    margin-top: 25px;
+}
+.rating p{
+    margin-top: 0px;
+    margin-left: 10px;
+    color: gray;
+
+}
+#star{
+    color: gray;
 }
 .rating-section{
     display: flex;
@@ -138,7 +154,7 @@ span{
 .clock{
     display: flex;
    background-color: lightpink;
-   width: 120px;
+   width: 100px;
    height: 30px;
    margin: 0px;
    padding: 0px;
@@ -148,13 +164,13 @@ span{
     margin: 5px;
     padding: 0px;
     color: red;
-    font-size: 20px;
+    font-size: 15px;
 }
 .clock i{
     margin: 5px;
     padding: 0px;
     color: red;
-    font-size: 20px;
+    font-size: 15px;
 }
 .course-content a{
     text-decoration: none;
